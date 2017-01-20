@@ -8,34 +8,47 @@
     <title>Ping-Pong</title>
   </head>
   <body>
-    <h1>Ping-Pong</h1>
+    <div class="container">
+      <div id="header" class="row">
+        <div class="col-md-12">
+          <h1>Ping-Pong</h1>
+        </div>
+      </div>
 
-    <h3>About Ping Pong</h3>
-    <h4>Created by:</h4>
-    <p>Patrick McGreevy</p>
-    <h4>GitHub Username/URL</h4>
-    <p><a href="https://github.com/ptown-epicodus">ptown-epicodus</a></p>
+      <div id="body" class="row">
+        <div id="sidebar" class="col-md-3">
+          <h3>About Ping Pong</h3>
+          <h4>Created by:</h4>
+          <p>Patrick McGreevy</p>
+          <h4>GitHub Username/URL</h4>
+          <p><a href="https://github.com/ptown-epicodus">ptown-epicodus</a></p>
+        </div>
+        <div id="main" class="col-md-9">
+          <h2>Let's play!</h2>
+          <h4>Rules:</h3>
+          <p>
+            Ping Pong will count up to your number from 1 with the following exceptions:
+          </p>
+          <ol>
+            <li>Numbers divisible by 3 become "ping"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by 3 and 5 become "ping-pong"</li>
+          </ol>
+          <form id="input">
+            <div class="form-group">
+              <label for="number">Enter your number here:</label>
+              <input id="number" class="form-control" type="text">
+            </div>
 
-    <h2>Let's play!</h2>
-    <h4>Rules:</h3>
-    <p>
-      Ping Pong will count up to your number from 1 with the following exceptions:
-    </p>
-    <ol>
-      <li>Numbers divisible by 3 become "ping"</li>
-      <li>Numbers divisible by 5 become "pong"</li>
-      <li>Numbers divisible by 3 and 5 become "ping-pong"</li>
-    </ol>
-    <form id="input">
-      <label for="number">Enter your number here:</label>
-      <input id="number" type="text">
+            <button class="btn" type="submit">Ping Pong!</button>
+          </form>
+          <div id="output">
+            <ul>
 
-      <button type="submit">Ping Pong!</button>
-    </form>
-    <div id="output">
-      <ul>
-
-      </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
