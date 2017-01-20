@@ -35,7 +35,7 @@ jQuery
 * It replaces numbers divisible by 5 with "pong".
   * **Example Input**: 7
   * **Example Output**: [1,2,'ping',4,'pong',6,7]
-* It replaces numbers divisible by 5 with "ping-pong".
+* It replaces numbers divisible by 15 with "ping-pong".
   * **Example Input**: 15
   * **Example Output**: [1,2,'ping',4,'pong',6,7,8,'ping','pong',11,'ping',13,14,'ping-pong']
 
