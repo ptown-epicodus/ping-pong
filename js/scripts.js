@@ -23,6 +23,7 @@ $(document).ready(function() {
 
     var input = $("#number").val();
     var list = pingPong(parseInt(input));
+    $("#output ul").empty();
     list.forEach(function(element) {
       $("#output ul").append("<li>" + element + "</li>");
     });
